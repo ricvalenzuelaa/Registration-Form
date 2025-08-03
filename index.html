@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title> 
+</head>
+<body>
+    <div class="registration-form">
+    <h2>Registration Form</h2>
+    <p>Please fill out this form with the required information</p>
+    
+    <form onsubmit="return validateform()" method="post" action="login.php">
+    <label type="firstName">First Name:</label>
+    <input type="text" id="firstName"required>
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName"required>
+    <label type="email">Email:</label>
+    <input type="email" id="email"required>
+    <label type="password">Create Password:</label>
+    <input type="password" id="password" required>
+    <h4>_______________________________________________ </h4>
+    <input type="radio">Program<br>
+    <br>
+    <input type="radio">Year Level<br>
+    <br>
+    <input type="checkbox"> I accept the <u>terms and conditions</u>
+<
+    <p>The schools ensures data protection by adhering to relevant privacy
+         laws, applying encryption, and requiring informed consent before any 
+         enternal sharing.</p>
+    <h4>_______________________________________________ </h4>     
+    <label type ="Upload a profile picture:">Upload a profile picture:</label>
+    <input type="file" id="myfile" required><br>
+    <br>
+    <label>Birthdate:</label>
+    <input type="date" id="date" required><br>
+    <br>
+    <label type="Specialization>?">Specialization?</label>
+    <select name="Select" required>
+        <option value="BSIT" required>BSIT</option>
+        <option value="BSEE">BSEE</option>
+        <option value="BSCE">BSCE</option>
+        <option value="[select one]" selected="[select one]">[select one]</option req>
+    </select>
+    <br><br>
+     <label type="Bio:">Bio:</label>
+    <textarea name="comment" id="comment" placeholder="I like coding"></textarea>
+    <br>
+    <button  type="submit">Submit</button>
+    </form>
+    </div>
+</body>
+</html>
+<style>
+ body{
+    color: #eee;
+    font-family: tahoma;   
+}   
+
+.registration-form {
+  width: 500px; /* Adjust as needed */
+  margin: 50px auto;
+  padding: 20px;
+  background-color: violet; /* Slightly lighter dark grey */
+  border-radius: 5px;
+ 
+}   
+
+.registration-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registration-form p {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.registration-form h4{
+    text-align: left;
+    
+}
+
+
+
+
+
+label {
+  display: block; /* Makes labels take up the full width */
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]
+{
+margin-bottom: 10px;
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #555; /* Darker border */
+  border-radius: 3px;
+  background-color: darkviolet; /* Darker background for inputs */
+  color: #eee; /* Light text color for inputs */
+}
+
+
+
+
+
+        
