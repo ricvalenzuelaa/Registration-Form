@@ -52,7 +52,9 @@
         <textarea class="bgc" cols="66" name="comment" id="comment" placeholder="I like coding"></textarea>
         <br>
         <div style="border-bottom: 0px; margin: 30px 0;"></div>
-        <button  class="btn" type="submit">Submit</button>
+            <div class="btndiv">
+                <button class="btn"type="submit">Submit</button>
+            </div>
         </div>
     </form>
         
@@ -91,8 +93,7 @@ label {
 
 input[type="text"],
 input[type="email"],
-input[type="password"]
-{
+input[type="password"]{
 margin-bottom: 10px;
   width: 95%;
   padding: 10px;
@@ -113,13 +114,18 @@ margin-bottom: 10px;
 
 .btn {
     padding: 5px;
-    width: 100%;
+    width: 60%;
     height: 40px;
     background-color: darkviolet;
     border: 2px solid white; 
     color: white;               
     font-size: 16px;         
-    border-radius: 3px;  
+    border-radius: 3px;
+}
+.btndiv{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
 }
 
 textarea::placeholder {
