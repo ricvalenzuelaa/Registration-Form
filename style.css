@@ -55,7 +55,8 @@ margin-bottom: 10px;
     height: 20px
     background-color: white;
     border: none
-    color: black;    
+    color: black;
+}
 
 .btn {
     padding: 5px;
@@ -77,3 +78,4 @@ textarea::placeholder {
   color: cyan;
 
 }
+
