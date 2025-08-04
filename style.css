@@ -51,10 +51,10 @@ margin-bottom: 10px;
 
 .bgs{
     padding: 5px;
-    width: 100px
-    height: 20px
+    width: 100%;
+    height: 30px;
     background-color: white;
-    border: none
+    border: none;
     color: black;
 }
 
@@ -78,4 +78,5 @@ textarea::placeholder {
   color: cyan;
 
 }
+
 
